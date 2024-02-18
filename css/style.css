@@ -153,6 +153,7 @@ flex-direction:column;
     color: #ffffff;
     font-weight: 600;
     background-color: #0065FC;
+    font-size: 18px;
 }
 
 /*filters-section-icon*/
@@ -257,9 +258,8 @@ flex-direction:column;
     margin-top: 33px;
     border-radius: 15px;
     box-shadow: 5px 5px 10px #DADADA;
-    transition: 0.3s;
-text-decoration: none ;
-color: #000;
+    text-decoration: none ;
+    color: #000;
 }
 
 .lien-card img{
@@ -326,6 +326,23 @@ color: #000;
 
 .populaires-cards .card-rating {
     margin-bottom: 7px;
+}
+
+.footer{
+    display: flex;
+    background-color: #F2F2F2;
+    padding-top: 35px;
+    height: 163px;
+    margin:35px 0px 50px 50px;
+    
+
+}
+.footer h4{
+    font-size: 18px;
+    
+}
+.footer-menu{
+   
 }
 
 /****** Media queries ***********/

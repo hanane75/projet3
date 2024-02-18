@@ -54,151 +54,6 @@ body {
     color: var(--main-bg-color)
 }
 
-/****** Hebergements And Populaires ***********/
-.hebergements-and-populaires {
-    display: flex;
-    justify-content: space-between;
-}
-
-.hebergements-and-populaires section {
-    background-color: var(--main-bg-color);
-    border-radius: 20px;
-    padding: 35px;
-    box-sizing: border-box;
-}
-
-/****** Hebergements ***********/
-.hebergements {
-    width: 65%;
-   
-}
-.hebergements-title{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    
-}
-.hébergements-cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-}
-
-.lien-card{
-    width: 30%;
-    min-width: 120px;
-    background-color: white;
-    padding: 5px;
-    margin-top: 33px;
-    border-radius: 15px;
-    box-shadow: 5px 5px 10px #DADADA;
-    transition: 0.3s;
-}
-
-.lien-card img{
-    width: 100%;
-    height: 124px;
-    object-fit: cover;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.card-title-hébergement{
-    margin: 1px 0px 8px 15px;
-}
-.card-subtitle-héber {
-    margin: 1px 0px 8px 15px;
-}
-.text-fin-héber {
-    font-size: 18px;
-    margin-top: 33px;
-}
-/****** Populaires ***********/
-.populaires {
-    width: 31%;
-}
-
-.populaires-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.populaires-cards .card {
-    display: flex;
-    margin-top: 33px;
-}
-
-.populaires-cards img {
-    width: 37%;
-    height: 134px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-
-.populaires-cards .card-content {
-    width: 63%;
-    padding-left: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
-}
-
-.populaires-cards .card-title {
-    margin-top: 11px;
-    margin-bottom: 4px;
-}
-
-.populaires-cards .card-subtitle {
-    margin: 0;
-}
-
-.populaires-cards .card-rating {
-    margin-bottom: 7px;
-}
-
-/****** Media queries ***********/
-/* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px) {
-    .hebergements-and-populaires {
-        flex-direction: column;
-    }
-
-    .hebergements {
-        width: 100%;
-    }
-
-    .populaires {
-        width: 100%;
-        margin-top: 50px;
-    }
-
-    .populaires-cards {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .populaires-cards .card {
-        width: 30%;
-    }
-
-    .populaires-cards .card-title {
-        font-size: 14px;
-    }
-
-    .populaires-cards .card-subtitle {
-        font-size: 13px;
-    }
-}
-
-/* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
-    /* ... */
-}
 /*mise en style du header**/
 .header{
     display: flex;
@@ -298,7 +153,6 @@ flex-direction:column;
     color: #ffffff;
     font-weight: 600;
     background-color: #0065FC;
-    cursor: pointer;
 }
 
 /*filters-section-icon*/
@@ -331,11 +185,12 @@ flex-direction:column;
 .filters-types:hover {
     background-color: #DEEBFF;
     border: 2px solid #DEEBFF;
-    cursor: pointer;
+    cursor:default;
+     }
+.filters-types .fas{
+   color:#0065FC; 
 }
-.filters-types:hover .filters-icons {
-    transform: rotate(15deg);
-}
+
 
 /*section plus d'info */
 .info-plus{
@@ -362,5 +217,153 @@ flex-direction:column;
 }
 
 
+/****** Hebergements And Populaires ***********/
+.hebergements-and-populaires {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hebergements-and-populaires section {
+    background-color: var(--main-bg-color);
+    border-radius: 20px;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+/****** Hebergements ***********/
+.hebergements {
+    width: 65%;
+   
+}
+.hebergements-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    
+}
+.hébergements-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.lien-card{
+    width: 30%;
+    min-width: 120px;
+    background-color: white;
+    padding: 5px;
+    margin-top: 33px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #DADADA;
+    transition: 0.3s;
+text-decoration: none ;
+color: #000;
+}
+
+.lien-card img{
+    width: 100%;
+    height: 124px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
 
 
+.card-title-hébergement{
+    margin: 1px 0px 8px 15px;
+
+}
+.card-subtitle-héber {
+    margin: 1px 0px 8px 0px;
+
+}
+.text-aff {
+    font-size: 18px;
+    margin-top: 30px;
+}
+/****** Populaires ***********/
+.populaires {
+    width: 31%;
+}
+
+.populaires-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.populaires-cards .card {
+    display: flex;
+    margin-top: 33px;
+}
+
+.populaires-cards img {
+    width: 37%;
+    height: 134px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.populaires-cards .card-content {
+    width: 63%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.populaires-cards .card-title {
+    margin-top: 11px;
+    margin-bottom: 4px;
+}
+
+.populaires-cards .card-subtitle {
+    margin: 0;
+}
+
+.populaires-cards .card-rating {
+    margin-bottom: 7px;
+}
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    .hebergements-and-populaires {
+        flex-direction: column;
+    }
+
+    .hebergements {
+        width: 100%;
+    }
+
+    .populaires {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .populaires-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .populaires-cards .card {
+        width: 30%;
+    }
+
+    .populaires-cards .card-title {
+        font-size: 14px;
+    }
+
+    .populaires-cards .card-subtitle {
+        font-size: 13px;
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    /* ... */
+}

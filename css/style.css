@@ -327,23 +327,81 @@ flex-direction:column;
 .populaires-cards .card-rating {
     margin-bottom: 7px;
 }
+/***activites a marseille**/
+.activites-à-Marseille{
+width: 1,340px;
+height: 559.02px;
+padding: 30px;
+gap: 30px;
 
+}
+
+.Activites-card{
+    display: flex;
+    width:1,280px;
+    height: 439px;
+    gap: 30px;
+
+}
+.activites-title{
+font-size: 22px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+}
+.card-content-a{
+    width:297.5px;
+    height: 439px;
+    border-radius: 20px;
+    
+}
+.card-content-a img{
+    width: 297.5px;
+    height: 380px;
+    border-radius: 20px, 20px, 0px, 0px;
+}
+
+.card-title-a{
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+/**footer**/
 .footer{
     display: flex;
     background-color: #F2F2F2;
-    padding-top: 35px;
     height: 163px;
-    margin:35px 0px 50px 50px;
+    margin-top:35px;
     
 
 }
+.apropos{
+    width:446.67px;
+    height:163px;
+    padding: 20px;
+    gap: 15px;
+}
+
+
 .footer h4{
-    font-size: 18px;
-    
+    padding-left: 15px;
+font-size: 18px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;  
 }
 .footer-menu{
-   
+display: flex;
+
 }
+
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */

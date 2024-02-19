@@ -329,11 +329,10 @@ flex-direction:column;
 }
 /***activites a marseille**/
 .activites-à-Marseille{
-width: 1340px;
-height: 559.02px;
-padding: 30px;
-gap: 30px;
-
+    width: 1340px;
+    height: 559.02px;
+    padding: 30px;
+    gap: 30px;
 }
 
 .Activites-card{
@@ -341,12 +340,8 @@ gap: 30px;
     width:1280px;
     height: 439px;
     gap: 30px;
-
 }
-.activites-title{
 
-text-align: left;
-}
 .card-content-a{
     width:297.5px;
     height: 439px;
@@ -378,6 +373,7 @@ text-align: left;
     justify-content: space-between;
     padding: 20px;
     gap: 15px;
+    text-align: left;
 }
 
 .footer.a-propos{
@@ -385,20 +381,21 @@ text-align: left;
     height:163px;
     
 }
+.footer.eber{
+    text-justify: auto;
+}
 
 .footer h4{
 padding-left: 15px;
 font-size: 18px;
 font-weight: 700;
 line-height: 21px;
-letter-spacing: 0em;
-text-align: left;  
+ 
 }
 .footer li{
 list-style:none;
 padding-bottom: 10px;
 margin-left: -10px;
-
 }
 
 

@@ -329,7 +329,7 @@ flex-direction:column;
 }
 /***activites a marseille**/
 .activites-à-Marseille{
-width: 1,340px;
+width: 1340px;
 height: 559.02px;
 padding: 30px;
 gap: 30px;
@@ -338,16 +338,13 @@ gap: 30px;
 
 .Activites-card{
     display: flex;
-    width:1,280px;
+    width:1280px;
     height: 439px;
     gap: 30px;
 
 }
 .activites-title{
-font-size: 22px;
-font-weight: 700;
-line-height: 26px;
-letter-spacing: 0em;
+
 text-align: left;
 }
 .card-content-a{
@@ -360,6 +357,7 @@ text-align: left;
     width: 297.5px;
     height: 380px;
     border-radius: 20px, 20px, 0px, 0px;
+    object-fit:cover;
 }
 
 .card-title-a{
@@ -368,37 +366,38 @@ text-align: left;
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
-
 }
 
-
-/**footer**/
+    /**footer**/
 .footer{
     display: flex;
     background-color: #F2F2F2;
     height: 163px;
     margin-top:35px;
-    
-
-}
-.apropos{
-    width:446.67px;
-    height:163px;
+    max-width: 1440px;
+    justify-content: space-between;
     padding: 20px;
     gap: 15px;
 }
 
+.footer.a-propos{
+    width:446.67px;
+    height:163px;
+    
+}
 
 .footer h4{
-    padding-left: 15px;
+padding-left: 15px;
 font-size: 18px;
 font-weight: 700;
 line-height: 21px;
 letter-spacing: 0em;
 text-align: left;  
 }
-.footer-menu{
-display: flex;
+.footer li{
+list-style:none;
+padding-bottom: 10px;
+margin-left: -10px;
 
 }
 

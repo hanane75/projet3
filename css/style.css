@@ -377,18 +377,27 @@ flex-direction:column;
     margin-top:35px;
     max-width: 1440px;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 0px 5px;
     gap: 15px;
     text-align: left;
 }
-
-.footer.a-propos{
+.a-propos{
     width:446.67px;
     height:163px;
+    padding: 0px 0px 0px 40px;
     
 }
-.footer.eber{
-    text-justify: auto;
+.eber{
+    width:446.67px;
+    height:163px;
+    padding: 0px 0px 0px 40px;
+}
+
+.ass{
+    width:446.67px;
+    height:163px;
+    padding: 0px 0px 0px 50px;
+    
 }
 
 .footer h4{
@@ -398,16 +407,25 @@ font-weight: 700;
 line-height: 21px;
  
 }
-.footer li{
+.footer li {
 list-style:none;
 padding-bottom: 10px;
-margin-left: -10px;
+margin-left: -25px;
+
+}
+.footer a{
+    color: #000;
+text-decoration: none;
 }
 
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    .filters-section{
+        flex-direction: column;
+        
+    }
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -442,5 +460,9 @@ margin-left: -10px;
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+    .header{
+        flex-direction: column;
+    }
+    
     /* ... */
 }

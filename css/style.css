@@ -454,9 +454,35 @@ text-decoration: none;
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    .header{
-        flex-direction: column;
+    html {
+        min-width: 450px;
+        max-width: 767.98px;
+        margin: 0;
     }
     
-    /* ... */
+   
+    .header{
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header img{
+     max-width: 100%;
+     height: auto;
+    }
+    
+    .navigation{
+        justify-content: center;
+    }
+    .navigation a{
+       
+        border-top: 2px solid transparent;
+        text-decoration:none;  
+    }
+    .navigation a:hover {
+       border-bottom: 2px solid var(--main-color);
+        color: var(--main-color);
+    }
 }

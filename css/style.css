@@ -166,6 +166,10 @@ width: 1340px;
     font-size: 18px;
 }
 
+.search-bar .boutton-icon{
+    display: none; /*masquer l'icone*/
+}
+
 /*filters-section-icon*/
 .filters-section{
     display: flex;
@@ -525,12 +529,35 @@ text-decoration: none;
     }
     
     /**barre de recherche**/
-  
-    .search-bar button{
+    .search-bar input{
+        position: relative;
+        height: 49px;
+        width: 236px;
+        border: #F2F2F2 1px solid ;
+        border-right: transparent;
+        font-weight: bold;
+        font-size: 119%;
+        text-align: center;
         
-      
     }
-    
+    .search-bar button{
+       border-radius: 15px 15px 15px 15px;
+        height: 49px;
+        width: 49px;
+    }
+ 
+    .search-bar .boutton-text{
+        display: none; /*masquer le text du bouton */
+    }
+    .search-bar .boutton-icon {
+        display: inline;   
+    }
+    .boutton-icon .fa-solid{
+        border-radius: 15px;
+        background-color: #0065FC;
+        color: white;
+    }
+
     /*filters-section-icon*/
   
     .filters-list {

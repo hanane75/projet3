@@ -92,7 +92,7 @@ body {
     color: rgb(7, 3, 3);
     text-align: center;
     padding-top: 16px;
-    padding-bottom: 181px;
+    padding-bottom: 18px;
     font-size: 16px;
     border-top: 2px solid transparent;
     text-decoration:none;  
@@ -107,6 +107,7 @@ body {
 .info-groupe{
 display:flex ;
 flex-direction:column;
+width: 1340px;
 
 }
 
@@ -116,7 +117,6 @@ flex-direction:column;
 }
 
 .info-groupe p{
-    margin-top: 8px;
     margin-bottom: 35px;
     
 }
@@ -188,7 +188,6 @@ flex-direction:column;
     border: 2px solid #d9d9d9;
     border-radius: 40px;
     padding: 4px 19px;
-    transition: 0.3s;
     gap: 10px;
     box-sizing: border-box;
 }
@@ -339,43 +338,42 @@ flex-direction:column;
 /***activites a marseille**/
 .activites-à-Marseille{
     width: 1340px;
-    height: 559.02px;
     padding: 30px;
     gap: 30px;
+    margin-bottom: 35px;
+    height: 550px;
 }
 
-.Activites-card{
+.Activites-card {
     display: flex;
     width:1280px;
     height: 439px;
     gap: 30px;
 }
 
-.card-content-a{
+.card-content-activités{
     width:297.5px;
     height: 439px;
-    border-radius: 20px;
     text-decoration: none;
     color: #000;
     margin-top: 30px;
-    border-radius: 20px 20px  0px 0px;
+    border-radius: 20px;
     box-shadow: 5px 5px 10px #DADADA;
     
 }
-.card-content-a img{
+.card-content-activités img{
     width:100%;
     height: 380px;
-    border-radius: 20px 20px  0px 0px;
+    border-radius: 15px 15px  0px 0px;
     object-fit:cover;
 
 }
 
-.card-title-a{
+.card-title-activité{
     font-size: 16px;
     font-weight: 700px;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
+    padding-left: 19px;
+   
 }
 
     /**footer**/
@@ -389,7 +387,6 @@ footer div{
    display:flex;
    flex-direction: column;
     width:33%;
-
     padding: 10px;
 }
 
@@ -431,6 +428,7 @@ text-decoration: none;
     .populaires {
         width: 100%;
         margin-top: 50px;
+
     }
 
     .populaires-cards {
@@ -450,12 +448,45 @@ text-decoration: none;
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+
+    .activites-à-Marseille{
+        width: 924px;
+        padding: 30px;
+        gap: 30px;
+        height: 390px;
+    }
+    
+    .Activites-card{
+        display: flex;
+        width: 864px;
+        height: 390px;
+    }
+    
+    .card-content-activités{
+
+        width: 193.5px;
+        height: 270px;
+        
+        
+    }
+    .card-content-activités img{
+        
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    
+    }
+    
+    
+
+
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     html {
-        min-width: 450px;
+     
         max-width: 767.98px;
         margin: 0;
     }
@@ -469,8 +500,9 @@ text-decoration: none;
     }
     
     .header img{
-     max-width: 100%;
-     height: auto;
+        justify-content:center;
+        max-width: 100%;
+        height: auto;
     }
     
     .navigation{
@@ -485,4 +517,33 @@ text-decoration: none;
        border-bottom: 2px solid var(--main-color);
         color: var(--main-color);
     }
+/**info groupe **/
+
+.info-groupe{
+    width: 375px;
+    
+    }
+    
+    /**barre de recherche**/
+  
+    .search-bar button{
+        
+      
+    }
+    
+    /*filters-section-icon*/
+  
+    .filters-list {
+        justify-content: space-between;
+       height: 161px;
+       width: 335px;
+        
+       
+    }
+
+    
+    
+    
+
 }
+

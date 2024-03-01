@@ -565,7 +565,11 @@ text-decoration: none;
        width: 335px;
         
     }
+    .filters-types{
 
+        width: 158px;
+    }
+    /*hebergment  and populaire*/
     .hebergements-and-populaires {
         flex-direction: column-reverse;
         
@@ -585,66 +589,85 @@ text-decoration: none;
         width: 100%;
     }
 
+    /*hebergement*/
     .hebergements {
-         display: flex;
-         flex-direction:column;
-         width: 100%;
-         margin-top: 30px;
+        display: block;
+        width: 100%;
+        margin-top: 30px;
     }
 
     .hébergements-cards{
         display: flex;
-        flex-direction:column;
-        justify-content: space-between;
-    
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
         
     }
-    .lien-card{
+   .lien-card{
         width: 100%;
-        padding-left: 15px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        box-sizing: border-box;
-        
+
     }
     .lien-card img{
         width: 37%;
-    height: 134px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+        height: 134px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 0px;
     
     }
-    
-    
 
-    .activites-à-Marseille{
-        width: 924px;
-        padding: 30px;
-        gap: 30px;
-        height: 390px;
+    .card-title-hébergement{
+        margin-top: 11px;
+        margin-bottom: 4px;
+    
+    }
+    .card-subtitle-héber {
+        margin: 0;
+    
     }
     
-    .Activites-card{
-        display: flex;
-        width: 864px;
-        height: 390px;
+    .card-rating-héber{
+        margin-bottom: 7px;
     }
+
+
+/***activites a marseille**/
+.activites-à-Marseille{
+    display: flex;
+    flex-direction: column;
+    height:1250px;
     
+}
+
+.Activites-card {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:200px;
+    gap:15px;
+    border-left:30px ;
+}
+
     .card-content-activités{
+    width: 375px;
+}
+.card-content-activités img{
+   border-top: 0px;
+    width:100%;
+    height: 200px;
+}
 
-        width: 193.5px;
-        height: 270px;
-        
-        
-    }
-    .card-content-activités img{
-        
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
+    /**footer**/
+    footer{
+        display: flex;
+        flex-direction: column;
     
     }
+
+    footer div{
+        width: 100%;
+    }
+    
 } 
 
 

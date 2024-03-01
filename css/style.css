@@ -24,14 +24,12 @@ li{
 body {
     display: flex;
     justify-content: center;
-    max-width: 1440px;
-    
 }
 
 .main-container {
     width: 100%;
-    max-width: 1440px;
-    padding: 0 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     box-sizing: border-box;
 }
 
@@ -67,32 +65,26 @@ body {
 .header{
     display: flex;
     justify-content: space-between;
-    max-width: 1440px;
-    height: 79px;
-    margin-bottom: 30px;
+
 }
 
 .header img{
-    display: flex;
-    flex-direction: column;
-    width: 61.09px;
-    height: 19px;
-    padding: 30px 50px 30px 0px;
-    margin-left: 0%;
+    
+    height: 20px;
+   
 }
 
 .navigation{
     display: flex;
     gap: 68px;
     height: 35px;
-    padding:0px 0px 0px 50px;
-    width: 244px; 
+
+   
 }
 .navigation a{
     color: rgb(7, 3, 3);
     text-align: center;
-    padding-top: 16px;
-    padding-bottom: 18px;
+    padding: 0px;
     font-size: 16px;
     border-top: 2px solid transparent;
     text-decoration:none;  
@@ -107,7 +99,7 @@ body {
 .info-groupe{
 display:flex ;
 flex-direction:column;
-width: 1340px;
+
 
 }
 
@@ -123,7 +115,7 @@ width: 1340px;
 /**barre de recherche**/
 .search-bar {
     display:flex;
-    margin-bottom: 35px;
+    
 }
 
 .search-bar .fa-solid {
@@ -135,7 +127,7 @@ width: 1340px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 112%;
+   
 }
 
 .search-bar input{
@@ -144,7 +136,7 @@ width: 1340px;
     width: 236px;
     border: #F2F2F2 1px solid;
     font-weight: bold;
-    font-size: 119%;
+    font-size: 16px;
     text-align: center;
     
 }
@@ -172,6 +164,7 @@ width: 1340px;
 
 /*filters-section-icon*/
 .filters-section{
+    margin: 30px;
     display: flex;
     gap: 15px;
     
@@ -265,7 +258,6 @@ width: 1340px;
 
 .lien-card{
     width: 30%;
-    min-width: 120px;
     background-color: white;
     padding: 5px;
     margin-top: 33px;
@@ -342,7 +334,7 @@ width: 1340px;
 }
 /***activites a marseille**/
 .activites-à-Marseille{
-    width: 1340px;
+   
     padding: 30px;
     gap: 30px;
     margin-bottom: 35px;
@@ -351,7 +343,7 @@ width: 1340px;
 
 .Activites-card {
     display: flex;
-    width:1280px;
+    
     height: 439px;
     gap: 30px;
 }
@@ -456,7 +448,7 @@ text-decoration: none;
 
 
     .activites-à-Marseille{
-        width: 924px;
+       
         padding: 30px;
         gap: 30px;
         height: 390px;
@@ -464,7 +456,7 @@ text-decoration: none;
     
     .Activites-card{
         display: flex;
-        width: 864px;
+        
         height: 390px;
     }
     
@@ -486,8 +478,8 @@ text-decoration: none;
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    html {
-        max-width: 767.98px;
+    body {
+       
         margin: 0;
     }
     
@@ -595,6 +587,7 @@ text-decoration: none;
         width: 100%;
         margin-top: 30px;
     }
+   
 
     .hébergements-cards{
         display: flex;
@@ -606,6 +599,10 @@ text-decoration: none;
    .lien-card{
         width: 100%;
 
+    }
+  .lien-card article{
+        display: flex;
+        padding-left: 5px;
     }
     .lien-card img{
         width: 37%;

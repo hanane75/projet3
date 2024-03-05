@@ -244,7 +244,7 @@ margin-top: 0px;
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    
+    padding-bottom: 15px;
 }
 .hébergements-cards{
     display: flex;
@@ -252,8 +252,7 @@ margin-top: 0px;
     justify-content: space-between;
 
 }
-
-.lien-card{
+.hebergements-card-content{
     width: 30%;
     background-color: white;
     padding: 5px;
@@ -264,7 +263,7 @@ margin-top: 0px;
     color: #000;
 }
 
-.lien-card img{
+.hebergements-card-content img{
     width: 100%;
     height: 124px;
     object-fit: cover;
@@ -443,7 +442,6 @@ text-decoration: none;
     .activites-à-Marseille{
        
         padding: 30px;
-        gap: 30px;
         height: 390px;
     }
     
@@ -600,17 +598,6 @@ text-decoration: none;
         width: 100%;
     }
 
-    /*hebergement*/
-    
-
-
-/***activites a marseille**/
-.activites-à-Marseille{
-    display: flex;
-    flex-direction: column;
-    height:1300px;
-    
-}
 
 /**hebergement*/
 
@@ -630,10 +617,26 @@ text-decoration: none;
     align-items: flex-start;
     gap: 15px;
 }
-.lien-card {
+.hebergements-card-content{
     width: 97%;
     margin-top: 0;
-}/*activites*/
+}
+.hebergements-card-content img{
+    width: 100%;
+    height:124px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/***activites a marseille**/
+.activites-à-Marseille{
+    display: flex;
+    flex-direction: column;
+    height:1250px;
+   
+    
+}
 .Activites-card {
     display: flex;
     flex-direction: column;

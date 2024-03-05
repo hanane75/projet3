@@ -497,6 +497,7 @@ text-decoration: none;
     }
 
     .navigation a{
+        padding-bottom: 14px;
         text-decoration:none;  
         width: 50%;
         border-bottom: 2px solid transparent;

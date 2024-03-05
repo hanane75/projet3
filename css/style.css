@@ -469,14 +469,13 @@ text-decoration: none;
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-  
+ 
     .main-container {
         margin: 0;
         padding: 0;
         width: 100%;
     }
     
-   
     .header{
         flex-direction: column;
         align-items: center;
@@ -665,6 +664,8 @@ text-decoration: none;
 
     footer div{
         width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
     }
     
 } 

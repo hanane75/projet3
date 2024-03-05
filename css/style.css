@@ -206,8 +206,8 @@ margin-top: 0px;
     align-items: center;
     height: 24px;
     gap: 10px;
-  
 }
+
 .plus-info .fas {
     display: flex;
     justify-content: center;
@@ -272,7 +272,7 @@ margin-top: 0px;
 }
 
 
-.card-title-hébergement{
+.card-title-héber{
     margin: 1px 0px 8px 15px;
 
 }
@@ -629,7 +629,7 @@ text-decoration: none;
     gap: 15px;
 }
 .hebergements-card-content{
-    width: 97%;
+    width: 100%;
     margin-top: 0;
 }
 .hebergements-card-content img{
@@ -638,6 +638,25 @@ text-decoration: none;
     object-fit: cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+.card-title-héber{
+    margin: 1px 0px 8px 0px;
+    padding-left: 15px;
+
+}
+.card-subtitle-héber {
+    margin: 1px 0px 8px 0px;
+    padding-left: 15px;
+
+}
+.card-rating-héber{
+    padding-left: 15px;
+}
+.text-aff {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
 
 /***activites a marseille**/
@@ -680,5 +699,3 @@ text-decoration: none;
     }
     
 } 
-
-

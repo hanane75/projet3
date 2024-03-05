@@ -469,9 +469,11 @@ text-decoration: none;
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
- 
+ body{
+    margin: 0px;
+ }
     .main-container {
-        margin: 0;
+       margin: 0px;
         padding: 0;
         width: 100%;
     }
@@ -507,7 +509,8 @@ text-decoration: none;
         
     }
     .info-groupe{
-        width: 100%;
+        width: 90%;
+        padding-left: 20px;
         
         }
     /**barre de recherche**/
@@ -556,8 +559,12 @@ text-decoration: none;
     }
 
     /*filters-section-icon*/
-  
-    .filters-list {
+    .filters-section{
+
+        width: 90%;
+        padding-left: 20px;
+    }
+    .filters-list { 
        display: flex;
        gap:8px;
         
@@ -570,7 +577,10 @@ text-decoration: none;
     }
 
     /** info section **/
-  
+  .info-plus{
+    width:90% ;
+    padding-left: 20px;
+  }
     .plus-info .fas {
         max-width: 24px;
         max-height: 24px;
@@ -633,7 +643,7 @@ text-decoration: none;
 .activites-à-Marseille{
     display: flex;
     flex-direction: column;
-    height:1250px;
+    height: 950px;
    
     
 }
@@ -652,7 +662,7 @@ text-decoration: none;
 .card-content-activités img{
    border-top: 0px;
     width:100%;
-    height: 200px;
+    height: 124px;
 }
 
     /**footer**/

@@ -62,17 +62,16 @@ body {
 }
 
 /*mise en style du header**/
-.header{
+header{
     display: flex;
     justify-content: space-between;
     height: 79px;
     margin-top: 30px;
 }
 
-.header img{
-    
-    height: 20px;
-   
+.header-img{
+    height: 30px;
+
 }
 
 .navigation{
@@ -360,7 +359,7 @@ margin-top: 0px;
 
 .card-title-activité{
     font-size: 16px;
-    font-weight: 700px;
+    font-weight: 700;
     padding-left: 19px;
    
 }
@@ -478,7 +477,7 @@ text-decoration: none;
         width: 100%;
     }
     
-    .header{
+    header{
         flex-direction: column;
         align-items: center;
         height: auto;
@@ -486,7 +485,7 @@ text-decoration: none;
 
     }
     
-    .header img{
+    .header-img{
         justify-content:center;
         height: auto;
     }

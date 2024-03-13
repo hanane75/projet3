@@ -406,13 +406,11 @@ text-decoration: none;
 
 /*large desktop */
 
-@media (min-width: 1440px ){
-  body{
-    padding: 70px;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
+@media (min-width: 1441px ){
   
+  .main-container{
+    margin:0 10%;
+  }
 
 }
 /* Medium devices (tablets, less/equal than 1024px) */

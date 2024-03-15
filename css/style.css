@@ -408,6 +408,7 @@ text-decoration: none;
 /*large desktop */
 
 @media (min-width: 1441px ){
+    
   .main-container{
     margin: 0 10%;
   }

@@ -499,16 +499,12 @@ text-decoration: none;
         align-items: center;
         height: auto;
         width: 100%;
-        
-        
-
     }
     
-   
 
     .navigation{
         
-        padding-bottom:14px;
+        margin-bottom:14px;
         justify-content: center;
         margin-top: 0;
         width:100%;

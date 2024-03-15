@@ -31,6 +31,7 @@ body {
     padding-left: 50px;
     padding-right: 50px;
     box-sizing: border-box;
+    margin: 0;
 }
 
 .section-title {
@@ -406,11 +407,9 @@ text-decoration: none;
 
 /*large desktop */
 
-@media (min-width: 1440px ){
-  body{
-    padding: 70px;
-    padding-top: 0;
-    padding-bottom: 0;
+@media (min-width: 1441px ){
+  .main-container{
+    margin: 0 10%;
   }
   
 
